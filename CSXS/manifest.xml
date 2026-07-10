@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest
+    Version="7.0"
+    ExtensionBundleId="com.motiongraphpro.panel"
+    ExtensionBundleVersion="1.0.0"
+    ExtensionBundleName="MotionGraph Pro">
+
+    <ExtensionList>
+        <Extension Id="com.motiongraphpro.panel"/>
+    </ExtensionList>
+
+    <ExecutionEnvironment>
+        <HostList>
+            <Host Name="AEFT" Version="[22.0,99.9]"/>
+        </HostList>
+
+        <LocaleList>
+            <Locale Code="All"/>
+        </LocaleList>
+
+        <RequiredRuntimeList>
+            <RequiredRuntime Name="CSXS" Version="11.0"/>
+        </RequiredRuntimeList>
+    </ExecutionEnvironment>
+
+    <DispatchInfoList>
+        <Extension Id="com.motiongraphpro.panel">
+
+            <DispatchInfo>
+
+                <Resources>
+                    <MainPath>./index.html</MainPath>
+                </Resources>
+
+                <Lifecycle>
+                    <AutoVisible>true</AutoVisible>
+                </Lifecycle>
+
+                <UI>
+
+                    <Type>Panel</Type>
+
+                    <Menu>MotionGraph Pro</Menu>
+
+                    <Geometry>
+                        <Size>
+                            <Width>420</Width>
+                            <Height>700</Height>
+                        </Size>
+                    </Geometry>
+
+                </UI>
+
+            </DispatchInfo>
+
+        </Extension>
+    </DispatchInfoList>
+
+</ExtensionManifest>

@@ -5,8 +5,12 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
 
+  base: "./",
+
   build: {
     outDir: path.resolve(__dirname, "../extension"),
     emptyOutDir: true,
+    sourcemap: false,
+    assetsDir: "assets",
   },
 });

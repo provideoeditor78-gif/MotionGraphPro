@@ -1,0 +1,37 @@
+:root {
+
+  /* Background */
+
+  --bg-primary: #181818;
+  --bg-secondary: #202020;
+  --bg-tertiary: #2a2a2a;
+
+  /* Borders */
+
+  --border: #323232;
+
+  /* Text */
+
+  --text-primary: #ffffff;
+  --text-secondary: #9b9b9b;
+
+  /* Accent */
+
+  --accent: #4f8cff;
+  --accent-hover: #3578ff;
+
+  /* Radius */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  /* Spacing */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+
+}

@@ -1,4 +1,4 @@
-import { CameraState, Point } from "./types";
+import type { CameraState, Point } from "./types";
 
 export function worldToScreen(
   point: Point,

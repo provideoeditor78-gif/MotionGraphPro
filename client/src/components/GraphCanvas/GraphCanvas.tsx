@@ -1,9 +1,16 @@
 import "./GraphCanvas.css";
 
+import { useCanvas } from "./hooks/useCanvas";
+
 function GraphCanvas() {
+  const canvasRef = useCanvas();
+
   return (
     <div className="graph-container">
-      <canvas id="graphCanvas"></canvas>
+      <canvas
+        ref={canvasRef}
+        id="graphCanvas"
+      />
 
       <div className="graph-overlay">
         MotionGraph Engine v0.1

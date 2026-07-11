@@ -1,4 +1,4 @@
-import { CameraState } from "./types";
+import type { CameraState } from "./types";
 
 export default class Camera {
 
